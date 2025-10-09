@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Settings</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="google-fonts.css">
+  <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Create Formula</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="setting.html">Settings</a></li>
+                </ul>
+            </nav>
+            
+
+        </header>
+    <div class="header-controls">
+                <button class="btn-secondary btn" aria-controls="discard">Discard</button>
+                <button class="btn-primary btn disabled" aria-controls="save">Save</button>
+    </div>
+    </div>
+
+    <div class="formula-title-field input-field">        
+        <span class="input-label body-lg">Title</span>
+        <input type="text" class="input body-md" placeholder="formula-name">
+    </div>
+
+    <div class="formula-main">        
+<!-- Налаштування формули -->        
+    <div class="formula-settings formula-column">            
+<!-- Карточка налаштувань -->        
+    </div>        
+<!-- Додавання колекцій -->        
+     <div class="formula-collections formula-column">            
+<!-- Карточка колекцій -->        
+    </div>
+    </div>
+    <div class="formula-settings-card">
+<!-- Заголовок карточки -->
+    <div class="formula-heading">
+        <h2 class="heading-lg">Formula settings</h2>
+        <span class="formula-heading-icon">
+            <img src="./assets/icon-question.svg" alt="question">
+        </span>
+    </div>
+    <!-- Поле вводу формули -->
+    <div class="input-field">
+        <span class="input-label body-lg">Formula</span>
+        <input type="text" class="input body-md" placeholder="X * Y">
+        <p class="input-description body-md">                 X - cryptocurrency price, Y - product price             </p>
+    </div>
+    <!-- Інші поля та елементи -->
+    </div>
+    <div class="search-card" aria-controls="search-crypto">
+    <div class="input-field input-field-search">
+        <img class="input-field-search-icon" src="./assets/icon-search.svg" alt="search-icon">
+        <input type="text" class="input body-md search-input" placeholder="Search">
+        <p class="input-description search-input-description body-md">Select crypto from the list or search the one you need</p>
+    </div>
+   
+    <!-- Результати пошуку -->
+   
+    <div class="search-results">
+        <div class="search-result">
+            <img src="./assets/image-placeholder.jpg" alt="image-placeholder" class="search-result-icon">
+            <span class="search-result-name body-md-b">Bitcoin</span>
+        </div>
+        <!-- Інші результати -->        
+    </div>        
+    <button class="search-btn-save btn btn-primary">Save</button>
+    </div>  
+
+
+
+
+
+            
+
+</body>
+</html>
