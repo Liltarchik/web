@@ -1,46 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Settings</title>
-  <link rel="stylesheet" href="styles.css">
-  <ul>
-    <li><a href="setting.html">Settings</a></li>
-    <li><a href="formula.html">Forms</a></li>
-  </ul>
-</head>
-<body>
-  <div class="container">
-    <h1>Settings</h1>
-    <div class="tabs">
-      <button class="active">All settings</button>
-      <button>Published</button>
-      <button>BTC</button>
-      <button>USDT</button>
-      <button>TON</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Site</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Settings</h1>
+      <nav class="nav">
+        <a href="#" class="nav-link active-link">All settings</a>
+        <a href="#" class="nav-link">Published</a>
+        <a href="#" class="nav-link">BTC</a>
+        <a href="#" class="nav-link">USDT</a>
+        <a href="#" class="nav-link">TON</a>
+      </nav>
+      <table class="table">
+        <tbody>
+          <thead>
+            <tr>
+              <th class="table-head">
+                <a href="setting.html">Set-Creator-Logic</a>
+              </th>
+              <th class="table-head">Status</th>
+            </tr>
+          </thead>
+          <tr class="table-elem">
+            <td>
+              <a href="#" class="table-link">Content</a>
+            </td>
+            <td class="status"><span class="draft">Draft</span></td>
+            <td class="delete-icon">
+              <button type="button" class="delete-button">
+                <img src="../images/icons/delete-icon.svg" alt="delete icon" />
+              </button>
+            </td>
+          </tr>
+          <tr class="table-elem">
+            <td>
+              <a href="#" class="table-link">Content</a>
+            </td>
+            <td class="status"><span class="active">Active</span></td>
+            <td class="delete-icon">
+              <button type="button" class="delete-button">
+                <img src="../images/icons/delete-icon.svg" alt="delete icon" />
+              </button>
+            </td>
+          </tr>
+          <tr class="table-elem">
+            <td>
+              <a href="#" class="table-link">Content</a>
+            </td>
+            <td class="status"><span class="draft">Draft</span></td>
+            <td class="delete-icon">
+              <button type="button" class="delete-button">
+                <img src="../images/icons/delete-icon.svg" alt="delete icon" />
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <table>
-      <tr>
-        <th>Setting name</th>
-        <th>Status</th>
-        <th></th>
-      </tr>
-      <tr>
-        <td><a href="#">Content</a></td>
-        <td><span class="draft">Draft</span></td>
-        <td><button><img src="https://www.clipartmax.com/png/small/186-1867523_rubbish-bins-waste-paper-baskets-symbol-computer-waste.png" width="15"></button></td>
-      </tr>
-      <tr>
-        <td><a href="#">Content</a></td>
-        <td><span class="active">Active</span></td>
-        <td><button><img src="https://www.clipartmax.com/png/small/186-1867523_rubbish-bins-waste-paper-baskets-symbol-computer-waste.png" width="15"></button></td>
-      </tr>
-      <tr>
-        <td><a href="#">Content</a></td>
-        <td><span class="draft">Draft</span></td>
-        <td><button><img src="https://www.clipartmax.com/png/small/186-1867523_rubbish-bins-waste-paper-baskets-symbol-computer-waste.png" width="15"></button></td>
-      </tr>
-    </table>
-  </div>
-</body>
+  </body>
 </html>
